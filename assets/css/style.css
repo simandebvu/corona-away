@@ -8,6 +8,8 @@ html, body{
     --main-page-color: #009624;
     --red: #FF0000;
     --search-bg-color: #bdbdbd;
+    --quick-links-secondary: #64b5f6;
+    --quick-links-tertiary: #e53935;
 }
 
 /* NAV BAR */
@@ -43,6 +45,21 @@ html, body{
 }
 
 /* END STEPS */
+
+/* QUICK LINKS */
+
+.quick-links-main{
+    background-color: var(--main-page-color);
+}
+
+.quick-links-secondary{
+    background-color: var(--quick-links-secondary);
+}
+
+.quick-links-tertiary{
+    background-color: var(--quick-links-tertiary);
+}
+/* END QUICK LINKS */
 
 /* .main-content{
     background: url("../img/header-bg.jpg")fixed center no-repeat;
