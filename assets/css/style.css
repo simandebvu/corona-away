@@ -4,7 +4,37 @@ html, body{
     font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+:root {
+    --main-page-color: #009624;
+    --red: #FF0000;
+    --search-bg-color: #bdbdbd;
+}
+
+/* NAV BAR */
+.navbar{
+    background-color: var(--main-page-color);
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--red);
+}
+
+/* END NAV BAR */
+
 /* MAIN HEADER */
+
+.header{
+    background: url("../img/header-bg.jpg") no-repeat;
+    background-size: cover;
+}
+
+.search-header{
+    background-color: var(--search-bg-color);
+    border-radius: 10px;
+}
+
+/* END HEADER */
 
 /* .main-content{
     background: url("../img/header-bg.jpg")fixed center no-repeat;

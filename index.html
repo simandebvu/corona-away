@@ -17,8 +17,8 @@
 
 <body>
     <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <nav class="navbar navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+        <nav class="navbar navbar-dark">
             <a class="navbar-brand" href="#">
                 <img src="./assets/img/logo.svg" width="30" height="45" alt="" loading="lazy">
             </a>
@@ -31,32 +31,27 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#">
-                        <h2>corona-away</h2> <span class="sr-only">(current)</span>
+                        <h2 class="text-white">corona-away</h2>
                     </a>
                 </li>
             </ul>
             <div class="my-2 my-lg-0">
                 <ul class="navbar-nav mr-sm-2">
                     <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-end px-1" href="#">
-                            <span class="material-icons">search</span>testing
+                        <a class="nav-link d-flex align-items-end px-3 text-white" href="#">
+                            <span class="material-icons mr-1">search</span>SEARCH
                         </a>
                     </li>
                     <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-end px-1" href="#">
-                            <span class="material-icons">healing</span>about
+                        <a class="nav-link d-flex align-items-end px-3 text-white" href="#">
+                            <span class="material-icons mr-1">healing</span>ABOUT
                         </a>
                     </li>
                     <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-end px-1" href="#">
-                            <span class="material-icons">search</span>blog
-                        </a>
-                    </li>
-                    <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-end px-1" href="#">
-                            <span class="material-icons">menu</span>contact
+                        <a class="nav-link d-flex align-items-end px-3 text-white" href="#">
+                            <span class="material-icons mr-1">search</span>BLOG
                         </a>
                     </li>
                 </ul>
@@ -65,22 +60,36 @@
     </nav>
 
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col pt-5">
-                <h2 class="text-center">CORONA-AWAY: Lets make it go away. :)</h2>
+    <div class="container-fluid px-0">
+        <div class="header">
+            <div class="row">
+                <div class="col pt-5">
+                    <h1 class="text-center text-white">CORONA-AWAY: Lets make it go away. :)</h1>
+                </div>
             </div>
-        </div>
-        <div class="row pt-5">
-            <div class="col">
-                <div class="mx-auto search-bar col-md-6 card-header">
-                    <form>
-                        <div class="form-group">
-                            <label for="search">SEARCH</label>
-                            <input type="text" class="form-control" id="search">
-                            <button type="button" class="btn btn-lg btn-primary mt-4 mx-3">How it works</button>
-                        </div>
-                    </form>
+            <div class="row pt-5 mx-auto">
+                <div class="col">
+                    <div class="mx-auto search-bar col-md-6 search-header py-3 mb-5">
+                        <form>
+                            <div class="form-group">
+                                <label for="search">
+                                    <p class="font-weight-bold">SEARCH BY AREA :</p>
+                                </label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" id="search">
+                                    <div class="input-group-append">
+                                        <button class="btn btn-success" type="button">SEARCH</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row pt-0">
+                <div class="col mb-5 d-flex justify-content-center">
+                    <button type="button" class="btn btn-lg btn-success mt-4 mx-3">How it works</button>
                 </div>
             </div>
         </div>
