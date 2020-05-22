@@ -1,6 +1,6 @@
-# Project Name
+# CORONA AWAY
 
-> One paragraph statement about the project.
+> On online lookup directory for covid 19. Helping individuals locate nearest test centers and get basic information/contact the institutions.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,50 +8,35 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- Bootstrap
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](#)
 
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-### Setup
-
-### Install
+- Modern browser
+- Internet connection
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+Open the live link 
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@simandebvu](https://github.com/simandebvu)
+- Twitter: [@simandebvu](https://twitter.com/simandebvu)
+- Linkedin: [simandebvu](https://linkedin.com/in/simandebvu)
 
 ## 🤝 Contributing
 
@@ -65,10 +50,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](LICENSE.md) licensed.

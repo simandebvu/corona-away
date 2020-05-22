@@ -1,0 +1,17 @@
+html, body{
+    height: 100%;
+    font-family: 'Cute Font', cursive;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* MAIN HEADER */
+
+/* .main-content{
+    background: url("../img/header-bg.jpg")fixed center no-repeat;
+    background-size: cover;
+    height: 100%;
+} */
+
+.quick-links{
+    border: 1px solid #000000;
+}
