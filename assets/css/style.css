@@ -36,6 +36,14 @@ html, body{
 
 /* END HEADER */
 
+/* STEPS */
+.steps-icon {
+    font-size: 3em;
+    color: var(--main-page-color);
+}
+
+/* END STEPS */
+
 /* .main-content{
     background: url("../img/header-bg.jpg")fixed center no-repeat;
     background-size: cover;
