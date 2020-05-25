@@ -51,15 +51,11 @@ html, body{
 
 /* END STEPS */
 
-
-/* FOOTER HEADER */
-.footer-header{
-    background-color: #000000;
-}
-/* END FOOTER HEADER */
-
 /* QUICK LINKS */
 
+.quick-links{
+    border: 1px solid #000000;
+}
 .quick-links-main{
     background-color: var(--main-page-color);
 }
@@ -73,13 +69,29 @@ html, body{
 }
 /* END QUICK LINKS */
 
+
 /* FOOTER */
+.footer-header{
+    background-color: #000000;
+}
+
+.footer-links{
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+}
+
+
+.footer-logo {
+    font-size: 25px;
+    border-radius: 100%;
+    border: 1px solid #434343;
+    margin: -10px -15px;
+    cursor: pointer;
+}
+
 .icons-footer a:hover{
     color: var(--main-page-color);
 }
 /* END FOOTER */
 
 
-.quick-links{
-    border: 1px solid #000000;
-}
