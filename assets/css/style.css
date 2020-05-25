@@ -2,6 +2,7 @@ html, body{
     height: 100%;
     font-family: 'Cute Font', cursive;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -40,7 +41,22 @@ html, body{
     color: var(--main-page-color);
 }
 
+.btn-how-it-works {
+    background-color: rgb(255,255,255,0.8);
+}
+
+.how-it-works-text{
+    font-family: 'Roboto', sans-serif
+}
+
 /* END STEPS */
+
+
+/* FOOTER HEADER */
+.footer-header{
+    background-color: #000000;
+}
+/* END FOOTER HEADER */
 
 /* QUICK LINKS */
 
@@ -63,11 +79,6 @@ html, body{
 }
 /* END FOOTER */
 
-/* .main-content{
-    background: url("../img/header-bg.jpg")fixed center no-repeat;
-    background-size: cover;
-    height: 100%;
-} */
 
 .quick-links{
     border: 1px solid #000000;

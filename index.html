@@ -67,14 +67,14 @@
     </nav>
 
 
-    <div class="container-fluid px-0 px-md-0 px-lg-0 px-xl-0">
+    <div class="px-0 px-md-0 px-lg-0 px-xl-0">
         <div class="header">
             <div class="row mx-0">
                 <div class="col pt-5">
                     <h1 class="text-center text-white">CORONA-AWAY: FIND HELP... FAST!</h1>
                 </div>
             </div>
-            <div class="row pt-3 mx-auto">
+            <div class="row mt-3 p-4 mx-auto">
                 <div class="col">
                     <div class="mx-auto search-bar col-md-6 search-header py-3 mb-5">
                         <form>
@@ -92,18 +92,21 @@
 
                 </div>
             </div>
-            <div class="row pt-0 mx-0">
+            <div class="row pt-0 mx-0 mb-5">
                 <div class="col mb-5 d-flex justify-content-center">
-                    <button type="button" class="btn btn-lg btn-success mt-4 mx-3">How it works</button>
+                    <a href="#how-it-works"><button type="button"
+                            class="btn btn-how-it-works btn-lg mt-4 mx-3 text-dark">How it works</button></a>
                 </div>
             </div>
         </div>
 
-        <div class="mx-0 row pt-5 w-100">
-            <div class="col">
-                <h3 class="text-center">CORONA-AWAY works in four simple steps</h3>
+        <section id="how-it-works">
+            <div class="mx-0 row pt-5 w-100">
+                <div class="col">
+                    <h3 class="text-center">CORONA-AWAY works in four simple steps</h3>
+                </div>
             </div>
-        </div>
+        </section>
 
         <!-- THE FOUR STEPS -->
         <div class=" mx-0 row pt-5 w-100">
@@ -111,12 +114,14 @@
             <div class="col-md-6 d-flex flex-column align-items-center">
                 <div class="search-icon"> <span class="steps-icon icon material-icons">search</span></div>
                 <div class="search-text">
-                    <h3 class="font-weight-bold">1-SEARCH</h3>
+                    <h4 class="font-weight-bold">1-SEARCH</h4>
                 </div>
                 <div class="search-description">
                     <blockquote class="blockquote text-center">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                            erat a ante.</p>
+                        <p class="mb-0 how-it-works-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Integer posuere erat a ante. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Vitae, distinctio?
+                        </p>
                     </blockquote>
                 </div>
             </div>
@@ -125,12 +130,14 @@
             <div class="col-md-6 d-flex flex-column align-items-center">
                 <div class="search-icon"><span class="steps-icon material-icons">location_on</span></div>
                 <div class="search-text">
-                    <h3 class="font-weight-bold">2-LOCATE</h3>
+                    <h4 class="font-weight-bold">2-LOCATE</h4>
                 </div>
                 <div class="search-description">
                     <blockquote class="blockquote text-center">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                            erat a ante.</p>
+                        <p class="mb-0 how-it-works-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Integer posuere erat a ante. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Eveniet, molestias?
+                        </p>
                     </blockquote>
                 </div>
             </div>
@@ -141,12 +148,13 @@
             <div class="col-md-6 d-flex flex-column align-items-center">
                 <div class="search-icon"> <span class="steps-icon material-icons">search</span></div>
                 <div class="search-text">
-                    <h3 class="font-weight-bold">3-APPLY</h3>
+                    <h4 class="font-weight-bold">3-APPLY</h4>
                 </div>
                 <div class="search-description">
                     <blockquote class="blockquote text-center">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                            erat a ante.</p>
+                        <p class="mb-0 how-it-works-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Integer posuere erat a ante. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Omnis, obcaecati?</p>
                     </blockquote>
                 </div>
             </div>
@@ -155,12 +163,14 @@
             <div class="col-md-6 d-flex flex-column align-items-center  w-100">
                 <div class="search-icon"> <span class="steps-icon material-icons">search</span></div>
                 <div class="search-text">
-                    <h3 class="font-weight-bold">4-RELAX</h3>
+                    <h4 class="font-weight-bold">4-RELAX</h4>
                 </div>
                 <div class="search-description">
                     <blockquote class="blockquote text-center">
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere
-                            erat a ante.</p>
+                        <p class="mb-0 how-it-works-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Integer posuere erat a ante. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Nulla, voluptatum.
+                        </p>
                     </blockquote>
                 </div>
             </div>
@@ -169,89 +179,102 @@
 
 
         <!-- QUICK LINKS -->
-        <div class="row quick-links-main mt-3 mx-3 p-4 text-white">
+        <div class="row mx-0 quick-links-main mt-3 p-4 text-white">
             <div class="link-info col-md-8">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</h3>
+                <h4 class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.
+                </h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <button class="btn btn-primary">Lorem</button>
+                <button class="btn btn-light">Lorem</button>
             </div>
             <div class="link-picture col-md-4 d-flex justify-content-end px-5">
-                <img src="https://via.placeholder.com/200x150.png?text=Info+Image" alt="link-image"
+                <img src="https://via.placeholder.com/200x200.png?text=Info+Image" alt="link-image"
                     class="rounded-circle">
             </div>
         </div>
 
-        <div class="row quick-links-secondary mx-3 p-4 text-white">
+        <div class="row mx-0 quick-links-secondary p-4 text-white">
             <div class="link-info col-md-8">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</h3>
+                <h4 class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.
+                </h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <button class="btn btn-primary">Lorem</button>
+                <button class="btn btn-light">Lorem</button>
             </div>
             <div class="link-picture col-md-4 d-flex justify-content-end px-5">
-                <img src="https://via.placeholder.com/200x150.png?text=Info+Image" alt="second-links"
+                <img src="https://via.placeholder.com/200x200.png?text=Info+Image" alt="second-links"
                     class="rounded-circle">
             </div>
         </div>
 
-        <div class="row quick-links-tertiary mx-3 p-4 text-white">
+        <div class="row mx-0 quick-links-tertiary p-4 text-white">
             <div class="link-info col-md-8">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.</h3>
+                <h4 class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, nostrum.
+                </h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-                <button class="btn btn-primary">Lorem</button>
             </div>
             <div class="link-picture col-md-4 d-flex justify-content-end px-5">
-                <img src="https://via.placeholder.com/200x150.png?text=Info+Image" alt="third-links"
+                <img src="https://via.placeholder.com/200x200.png?text=Info+Image" alt="third-links"
                     class="rounded-circle">
             </div>
         </div>
 
-        <footer class=" mx-0 row pt-4 w-100">
-
-            <div class=" mx-0 row w-100">
-                <div class="col-md-12 d-flex justify-content-center">
-                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link text-white href=" #">Home </a>
-                            <a class="nav-item nav-link text-white" href="#">Search</a>
-                            <a class="nav-item nav-link text-white" href="#">About us</a>
-                            <a class="nav-item nav-link text-white" href="#">Advertise</a>
-                            <a class="nav-item nav-link text-white" href="#">Facebook</a>
-                            <a class="nav-item nav-link text-white" href="#">Twitter</a>
-                            <a class="nav-item nav-link text-white" href="#">Blog</a>
-                            <a class="nav-item nav-link text-white" href="#">Google Plus</a>
-                        </div>
-                    </nav>
+        <footer class=" mx-0 row w-100">
+            <div class="footer-header">
+                <div class=" mx-0 row w-100 pt-4">
+                    <div class="col-md-12">
+                        <ul class="d-flex text-white justify-content-around">
+                            <li><a class = "text-white" href="#">HOME</a></li>
+                            <li><a class = "text-white" href="#">SEARCH</a></li>
+                            <li><a class = "text-white" href="#">ABOUT</a></li>
+                            <li><a class = "text-white" href="#">ADVERTISE</a></li>
+                            <li><a class = "text-white" href="#">FACEBOOK</a></li>
+                            <li><a class = "text-white" href="#">TWITTER</a></li>
+                            <li><a class = "text-white" href="#">BLOG</a></li>
+                            <li><a class = "text-white" href="#">GOOGLE PLUS</a></li>
+                        </ul>
+                        <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link text-white href=" #">Home </a>
+                                <a class="nav-item nav-link text-white" href="#">Search</a>
+                                <a class="nav-item nav-link text-white" href="#">About us</a>
+                                <a class="nav-item nav-link text-white" href="#">Advertise</a>
+                                <a class="nav-item nav-link text-white" href="#">Facebook</a>
+                                <a class="nav-item nav-link text-white" href="#">Twitter</a>
+                                <a class="nav-item nav-link text-white" href="#">Blog</a>
+                                <a class="nav-item nav-link text-white" href="#">Google Plus</a>
+                            </div>
+                        </nav> -->
+                    </div>
                 </div>
-            </div>
 
 
-            <div class="row w-100 d-flex justify-content-center pt-4 mx-0">
-                <div class="link-info col-md-4 d-flex justify-content-center">
-                    <div class="d-flex flex-column">
-                        <h3>SUBSCRIBE</h3>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" id="search">
-                            <div class="input-group-append">
-                                <button class="btn btn-success" type="button">SEND</button>
+                <div class="row w-100 d-flex justify-content-center pt-4 mx-0">
+                    <div class="link-info col-md-4 d-flex justify-content-center">
+                        <div class="d-flex flex-column">
+                            <h3>SUBSCRIBE</h3>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" id="search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-success" type="button">SEND</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="link-info col-md-4 d-flex justify-content-center">
-                    <div class="d-flex flex-column">
-                        <h3>CONTACT</h3>
-                        <p>Lorem ipsum dolor sit.</p>
+                    <div class="link-info col-md-4 d-flex justify-content-center">
+                        <div class="d-flex flex-column">
+                            <h3>CONTACT</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                    <div class="link-info col-md-4 d-flex justify-content-center">
+                        <div class="d-flex flex-column justify-content-middle">
+                            <h3>ABOUT</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam iste ipsum neque
+                                ducimus aliquam tempore eaque quaerat, expedita consectetur mollitia incidunt alias
+                                vitae
+                                commodi!</p>
+                        </div>
                     </div>
                 </div>
-                <div class="link-info col-md-4 d-flex justify-content-center">
-                    <div class="d-flex flex-column justify-content-middle">
-                        <h3>ABOUT</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia veniam iste ipsum neque
-                            ducimus aliquam tempore eaque quaerat, expedita consectetur mollitia incidunt alias vitae
-                            commodi!</p>
-                    </div>
-                </div>
-
                 <nav class="navbar navbar-dark bg-dark w-100 mb-0 p-0 py-3">
                     <div class="col-md-4">
                         <div class="mr-auto text-white" href="#">
