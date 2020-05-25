@@ -15,11 +15,7 @@ html, body{
 /* NAV BAR */
 .navbar{
     background-color: var(--main-page-color);
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--red);
+    font-size: 14px;
 }
 
 /* END NAV BAR */
@@ -32,7 +28,7 @@ html, body{
 }
 
 .search-header{
-    background-color: var(--search-bg-color);
+    background-color: rgb(255,255,255,0.7);
     border-radius: 10px;
 }
 
@@ -60,6 +56,12 @@ html, body{
     background-color: var(--quick-links-tertiary);
 }
 /* END QUICK LINKS */
+
+/* FOOTER */
+.icons-footer a:hover{
+    color: var(--main-page-color);
+}
+/* END FOOTER */
 
 /* .main-content{
     background: url("../img/header-bg.jpg")fixed center no-repeat;
