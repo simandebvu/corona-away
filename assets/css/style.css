@@ -84,8 +84,8 @@ html, body{
 .footer-logo {
     font-size: 25px;
     border-radius: 100%;
-    border: 1px solid #434343;
-    margin: -10px -15px;
+    border: 1px solid #888;
+    margin: -10px -12px;
     cursor: pointer;
 }
 
