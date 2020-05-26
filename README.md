@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](#)
+[Live Demo Link](https://raw.githack.com/simandebvu/corona-away/develop/index.html)
 
 
 ## Getting Started
@@ -28,11 +28,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-Open the live link 
+[Live Demo Link](https://raw.githack.com/simandebvu/corona-away/develop/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 **Shingirayi Mandebvu**
 
 - Github: [@simandebvu](https://github.com/simandebvu)
 - Twitter: [@simandebvu](https://twitter.com/simandebvu)
