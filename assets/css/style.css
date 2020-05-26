@@ -88,6 +88,10 @@ body {
   cursor: pointer;
 }
 
+.icons-footer a i{
+    color: #777;
+}
+
 .icons-footer a:hover {
   color: var(--main-page-color);
 }
@@ -108,4 +112,13 @@ body {
 .gmap_canvas {
   overflow: hidden;
   background: none !important;
+}
+
+.more-details{
+    font-size: 40px;
+}
+
+.card-title,
+.page-title{
+    color: var(--main-page-color);
 }
