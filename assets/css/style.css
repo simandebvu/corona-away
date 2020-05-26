@@ -34,6 +34,15 @@ body {
   border-radius: 10px;
 }
 
+.btn-search {
+  color: white;
+  background-color: #d3574a;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  line-height: 20px;
+}
+
 /* END HEADER */
 
 /* STEPS */
@@ -104,6 +113,18 @@ body {
 .result-div {
   width: 250px;
   height: 300px;
+}
+
+.btn-doc-search {
+  background-color: #457db4;
+}
+
+.edit-btn-icon {
+ height: 1rem;
+}
+
+.btn-doc-clear {
+  background-color: #e5ab5a;
 }
 
 /* DETAILS */
