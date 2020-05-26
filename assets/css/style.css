@@ -8,7 +8,7 @@ body {
 
 :root {
   --main-page-color: #d3574a;
-  --red: #ff0000;
+  --red: #f00;
   --search-bg-color: #bdbdbd;
   --quick-links-secondary: #64b5f6;
   --quick-links-tertiary: #e53935;
@@ -55,8 +55,9 @@ body {
 /* QUICK LINKS */
 
 .quick-links {
-  border: 1px solid #000000;
+  border: 1px solid #000;
 }
+
 .quick-links-main {
   background-color: var(--main-page-color);
 }
@@ -68,11 +69,12 @@ body {
 .quick-links-tertiary {
   background-color: var(--quick-links-tertiary);
 }
+
 /* END QUICK LINKS */
 
 /* FOOTER */
 .footer-header {
-  background-color: #000000;
+  background-color: #000;
 }
 
 .footer-links {
@@ -88,13 +90,14 @@ body {
   cursor: pointer;
 }
 
-.icons-footer a i{
-    color: #777;
+.icons-footer a i {
+  color: #777;
 }
 
 .icons-footer a:hover {
   color: var(--main-page-color);
 }
+
 /* END FOOTER */
 
 /* DOCTORS PAGE */
@@ -110,21 +113,21 @@ body {
   text-align: right;
 }
 
-.map-frame{
-    border:0;
+.map-frame {
+  border: 0;
 }
 
 .map-view {
   overflow: hidden;
   background: none !important;
-  height:400px;
+  height: 400px;
 }
 
-.more-details{
-    font-size: 40px;
+.more-details {
+  font-size: 40px;
 }
 
 .card-title,
-.page-title{
-    color: var(--main-page-color);
+.page-title {
+  color: var(--main-page-color);
 }
