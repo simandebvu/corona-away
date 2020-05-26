@@ -111,8 +111,8 @@ body {
 
 /* DOCTORS PAGE */
 .result-div {
-  width: 250px;
-  height: 300px;
+  max-width: 250px;
+  max-height: 300px;
 }
 
 .btn-doc-search {
