@@ -51,6 +51,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- [Mathew Njuguna and others on Behance](https://www.behance.net/mathewnjuguna)
 
 ## 📝 License
 
