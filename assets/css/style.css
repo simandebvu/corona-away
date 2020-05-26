@@ -1,0 +1,124 @@
+html,
+body {
+  height: 100%;
+  font-family: "Cute Font", cursive;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-page-color: #d3574a;
+  --red: #ff0000;
+  --search-bg-color: #bdbdbd;
+  --quick-links-secondary: #64b5f6;
+  --quick-links-tertiary: #e53935;
+}
+
+/* NAV BAR */
+.navbar {
+  background-color: var(--main-page-color);
+  font-size: 14px;
+}
+
+/* END NAV BAR */
+
+/* MAIN HEADER */
+
+.header {
+  background: url("../img/header-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+.search-header {
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+/* END HEADER */
+
+/* STEPS */
+.steps-icon {
+  font-size: 3em;
+  color: var(--main-page-color);
+}
+
+.btn-how-it-works {
+  background-color: rgb(255, 255, 255, 0.8);
+}
+
+.how-it-works-text {
+  font-family: "Roboto", sans-serif;
+}
+
+/* END STEPS */
+
+/* QUICK LINKS */
+
+.quick-links {
+  border: 1px solid #000000;
+}
+.quick-links-main {
+  background-color: var(--main-page-color);
+}
+
+.quick-links-secondary {
+  background-color: var(--quick-links-secondary);
+}
+
+.quick-links-tertiary {
+  background-color: var(--quick-links-tertiary);
+}
+/* END QUICK LINKS */
+
+/* FOOTER */
+.footer-header {
+  background-color: #000000;
+}
+
+.footer-links {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.footer-logo {
+  font-size: 25px;
+  border-radius: 100%;
+  border: 1px solid #888;
+  margin: -10px -12px;
+  cursor: pointer;
+}
+
+.icons-footer a i{
+    color: #777;
+}
+
+.icons-footer a:hover {
+  color: var(--main-page-color);
+}
+/* END FOOTER */
+
+/* DOCTORS PAGE */
+.result-div {
+  width: 250px;
+  height: 300px;
+}
+
+/* DETAILS */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+
+.more-details{
+    font-size: 40px;
+}
+
+.card-title,
+.page-title{
+    color: var(--main-page-color);
+}
