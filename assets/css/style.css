@@ -43,9 +43,11 @@ body {
 
 /* MAIN HEADER */
 
-.header {
+.main-page-header {
   background: url("../img/header-bg.jpg") no-repeat;
   background-size: cover;
+  background-position: 50%;
+  padding-top: 20%;
 }
 
 .search-header {
@@ -81,10 +83,6 @@ body {
 /* END STEPS */
 
 /* QUICK LINKS */
-
-.quick-links {
-  border: 1px solid #000;
-}
 
 .quick-links-main {
   background-color: var(--main-page-color);
@@ -207,5 +205,17 @@ body {
   .nav-group{
     width: 78%;
   }
+
+  .main-page-header{
+    padding-top: 15%;
+  } 
 }
+
+@media (min-width: 1200px) { 
+  .main-page-header{
+    background-position: initial;
+    padding-top: 20%;
+  }  
+ }
+
 
