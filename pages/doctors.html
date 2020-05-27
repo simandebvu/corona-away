@@ -15,196 +15,201 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 
-<body> 
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-dark navbar-expand-lg sticky-top py-0">
-        <div class="navbar pr-lg-0">
-            <a class="navbar-brand pr-lg-0 mr-lg-0  d-flex align-self-middle" href="../index.html">
-                <span class="material-icons text-white nav-logo">location_on</span>
-            </a>
-        </div>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="../index.html">
-                        <h4 class="text-white mb-0">find-a-doc</h4>
+<body>
+    <header>
+        <div class="nav-wrapper w-100 px-2">
+            <nav>
+                <div class=" col-sm-12 navbar pr-0 mr-0 d-flex justify-content-center">
+                    <a class="navbar-brand pr-0 mr-0  d-flex align-self-middle" href="../index.html">
+                        <span class="material-icons text-white ">location_on</span>
                     </a>
-                </li>
-            </ul>
-            <div class="my-2 my-lg-0">
-                <ul class="navbar-nav mr-sm-2 pt-1">
-                    <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-middle px-3 text-white" href="#">
-                            <span class="material-icons">search</span>DOCTORS
-                        </a>
-                    </li>
-                    <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-middle px-3 text-white" href="#">
-                            <span class="material-icons">face</span>ABOUT
-                        </a>
-                    </li>
-                    <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-middle px-3 text-white" href="#">
-                            <span class="material-icons">rss_feed</span>BLOG
-                        </a>
-                    </li>
-                    <li class="nav-item my-2 my-sm-0">
-                        <a class="nav-link d-flex align-items-middle px-3 text-white" href="#">
-                            <span class="material-icons">menu_open</span>MORE
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-
-    <div class="px-0 px-md-0 px-lg-0 px-xl-0">
-
-        <div class="jumbotron jumbotron-fluid mt-5">
-            <div class="container-fluid">
-                <h3 class='text-center search-filter-title font-weight-bold'>Filter by name, district, location or zipcode</h3>
-
-                <form>
-                    <div class="form-row ">
-                        <div class="col-md-12 col-lg-2">
-                            <label for="doc_name" class="">Doctors' name-*</label>
-                            <input id="doc_name" type="text" class="form-control">
-                        </div>
-                        <div class="col-md-12 col-lg-2">
-                            <label for="doc_district">District-*</label>
-                            <select id="doc_district" class="form-control">
-                                <option selected>Select...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="col-md-12 col-lg-2">
-                            <label for="doc_type">Type-*</label>
-                            <select id="doc_type" class="form-control">
-                                <option selected>Select...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="col-md-12 col-lg-1">
-                            <label for="doc_gender">Gender-*</label>
-                            <select id="doc_gender" class="form-control">
-                                <option selected>...</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-                        <div class="col-md-12 col-lg-2">
-                            <label for="doc_spec">Specialist-*</label>
-                            <select id="doc_spec" class="form-control">
-                                <option selected>No</option>
-                                <option>Yes</option>
-                            </select>
-                        </div>
-                        <div class="form-group d-flex align-items-end col-md-12 col-lg-3 mb-lg-0 mt-3">
-                            <div class="mr-md-2 mr-lg-0">
-                                <button type="submit" class="btn btn-doc-search font-weight-bold text-white">Search</button>
-                            </div>
-                            <div >
-                                <button class="btn btn-doc-clear text-white mx-sm-3  mx-lg-1 d-flex font-weight-bold align-items-center"><img class = "edit-btn-icon" src="../assets/img/edit.svg">Clear filter</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <section class="results">
-            <h2 class = "text-center mb-4 font-weight-bold" style="color:#5b5656">Search Results found 3 Doctor(s).</h2>
-            <div class="row mb-3 mx-5 d-flex justify-content-around">
-                <div class=" col-lg-4 col-md-4 my-3  text-center result-div">
-                    <a href="details.html"><img class = "w-100" src="https://via.placeholder.com/250x300.png?text=Search+Result+1+Dr+X" alt=""></a>
+                    <a class="nav-link pl-0" href="../index.html">
+                        <h5 class="text-white mb-0">find-a-doc</h5>
+                    </a>
                 </div>
-                <div class=" col-lg-4 col-md-4 my-3  text-center result-div">
-                    <a href="details.html"><img class = "w-100" src="https://via.placeholder.com/250x300.png?text=Search+Result+2+Dr+Y" alt=""></a>
-                </div>
-                <div class=" col-lg-4 col-md-4 my-3  text-center result-div">
-                    <a href="details.html"><img class = "w-100" src="https://via.placeholder.com/250x300.png?text=Search+Result+3+Dr+Z" alt=""></a>
-                </div>
-            </div>
-        </section>
-
-        <footer class=" mx-0 w-100">
-            <div class="footer-header">
-                <div class="d-lg-flex d-sm-block d-md-block justify-content-center mx-auto w-100 pt-4 px-5">
-                    <ul class="d-flex text-white justify-content-around footer-links p-3 w-100 h-50">
-                        <li><a class="text-white" href="#">HOME</a></li>
-                        <li><a class="text-white" href="#">SEARCH</a></li>
-                        <li><a class="text-white" href="#">ABOUT</a></li>
-                        <li><a class="text-white" href="#">ADVERTISE</a></li>
+                <div class="col-sm-12 my-2 my-lg-0">
+                    <ul class="d-flex mr-sm-2 pt-1">
+                        <li class="my-2 col-sm-2 w-sm-25 my-sm-0">
+                            <a class="d-md-flex d-sm-block align-items-middle px-3 text-white" href="#">
+                                <span class="material-icons nav-logo">search</span>
+                                <span class="d-none d-md-block"> DOCTORS</p></a>
+                        </li>
+                        <li class="nav-item my-2 col-sm-2 w-sm-25 my-sm-0">
+                            <a class="d-md-flex align-items-middle px-3 text-white" href="#">
+                                <span class="material-icons nav-logo">face</span>
+                                <span class="d-none d-md-block">ABOUT</span>
+                            </a>
+                        </li>
+                        <li class="nav-item my-2 col-sm-2 w-sm-25 my-sm-0">
+                            <a class="d-md-flex align-items-middle px-3 text-white" href="#">
+                                <span class="material-icons nav-logo">rss_feed</span>
+                                <span class="d-none d-md-block">BLOG</span>
+                            </a>
+                        </li>
+                        <li class="nav-item my-2 col-sm-2 w-sm-25 my-sm-0">
+                            <a class="d-md-flex align-items-middle px-3 text-white" href="#">
+                                <span class="material-icons nav-logo">menu_open</span>
+                                <span class="d-none d-md-block">MORE</span>
+                            </a>
+                        </li>
                     </ul>
-                    <span
-                        class="footer-logo p-4 material-icons text-white align-self-start d-none d-lg-block">location_on</span>
-                    <ul class="d-flex text-white justify-content-around footer-links p-3 w-100 h-50">
-                        <li><a class="text-white" href="#">FACEBOOK</a></li>
-                        <li><a class="text-white" href="#">TWITTER</a></li>
-                        <li><a class="text-white" href="#">BLOG</a></li>
-                        <li><a class="text-white" href="#">GOOGLE+</a></li>
-                    </ul>
-
                 </div>
+            </nav>
+        </div>
+    </header>
+    <section class="mt-5 pt-5">
+        <div class="px-0 px-md-0 px-lg-0 px-xl-0">
+            <div class="jumbotron jumbotron-fluid mt-5">
+                <div class="container-fluid">
+                    <h3 class='text-center search-filter-title font-weight-bold'>Filter by name, district, location or
+                        zipcode</h3>
 
-
-                <div class="row d-flex justify-content-center pt-4 mx-0 text-white">
-                    <div class="link-info col-md-4 d-flex justify-content-lg-center">
-                        <div class="d-flex flex-column text-lg-center">
-                            <h3>SUBSCRIBE</h3>
-                            <div class="input-group mb-3">
-                                <input type="text" class="form-control" id="search">
-                                <div class="input-group-append">
-                                    <button class="btn btn-send bg-dark text-white" type="button">SEND</button>
+                    <form>
+                        <div class="form-row ">
+                            <div class="col-md-12 col-lg-2">
+                                <label for="doc_name" class="">Doctors' name-*</label>
+                                <input id="doc_name" type="text" class="form-control">
+                            </div>
+                            <div class="col-md-12 col-lg-2">
+                                <label for="doc_district">District-*</label>
+                                <select id="doc_district" class="form-control">
+                                    <option selected>Select...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 col-lg-2">
+                                <label for="doc_type">Type-*</label>
+                                <select id="doc_type" class="form-control">
+                                    <option selected>Select...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 col-lg-1">
+                                <label for="doc_gender">Gender-*</label>
+                                <select id="doc_gender" class="form-control">
+                                    <option selected>...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-12 col-lg-2">
+                                <label for="doc_spec">Specialist-*</label>
+                                <select id="doc_spec" class="form-control">
+                                    <option selected>No</option>
+                                    <option>Yes</option>
+                                </select>
+                            </div>
+                            <div class="form-group d-flex align-items-end col-md-12 col-lg-3 mb-lg-0 mt-3">
+                                <div class="mr-md-2 mr-lg-0">
+                                    <button type="submit"
+                                        class="btn btn-doc-search font-weight-bold text-white">Search</button>
+                                </div>
+                                <div>
+                                    <button
+                                        class="btn btn-doc-clear text-white mx-sm-3  mx-lg-1 d-flex font-weight-bold align-items-center"><img
+                                            class="edit-btn-icon" src="../assets/img/edit.svg">Clear filter</button>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="link-info col-md-4 d-flex justify-content-lg-center">
-                        <div class="d-flex flex-column text-lg-center">
-                            <h3>CONTACT</h3>
-                            <p class = "mb-0">Have a question or a submission?</p>
-                            <p ><a style="color: #d3574a;" href="mailto:simandebvu@icloud.com"> info@findadoc.com</a></p>
-                        </div>
-                    </div>
-                    <div class="link-info col-md-4 px-3 d-flex justify-content-center">
-                        <div class="d-flex flex-column text-lg-center">
-                            <h3>ABOUT</h3>
-                            <p>Find a doc was made with the motivation to assist you when where and exactly how you need it. A realtime database giving you nothing but the best, recent and latest information in our fight against COVID19 and any other virus that dares to not believe that as humans, we are stronger together. <span><a href="#" style="color: #d3574a;">Learn more..</a></span></p>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-                <nav class="navbar navbar-dark w-100 mb-0 p-0 py-3" style="background-color: #1f1f1f;">
-                    <div class="col-md-4">
-                        <div class="mr-auto text-white">
-                            <div class="d-flex justify-content-around w-lg-50">
-                                <span class="material-icons icons-footer"><a href="#"><i
-                                            class="fab fa-facebook"></i></a></span>
-                                <span class="material-icons icons-footer"><a href="#"><i
-                                            class="fab fa-google-plus-g"></i></a></span>
-                                <span class="material-icons icons-footer"><a href="#"><i
-                                            class="fab fa-twitter"></i></a></span>
-                                <span class="material-icons icons-footer"><a href="#"><i
-                                            class="fab fa-instagram"></i></a></span>
+            </div>
+    </section>
+    <section class="results">
+        <h2 class="text-center mb-4 font-weight-bold" style="color:#5b5656">Search Results found 3 Doctor(s).</h2>
+        <div class="row mb-3 mx-5 d-flex justify-content-around">
+            <div class=" col-lg-4 col-md-4 my-3  text-center result-div">
+                <a href="details.html"><img class="w-100"
+                        src="https://via.placeholder.com/250x300.png?text=Search+Result+1+Dr+X" alt=""></a>
+            </div>
+            <div class=" col-lg-4 col-md-4 my-3  text-center result-div">
+                <a href="details.html"><img class="w-100"
+                        src="https://via.placeholder.com/250x300.png?text=Search+Result+2+Dr+Y" alt=""></a>
+            </div>
+            <div class=" col-lg-4 col-md-4 my-3  text-center result-div">
+                <a href="details.html"><img class="w-100"
+                        src="https://via.placeholder.com/250x300.png?text=Search+Result+3+Dr+Z" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class=" mx-0 w-100">
+        <div class="footer-header">
+            <div class="d-lg-flex d-sm-block d-md-block justify-content-center mx-auto w-100 pt-4 px-5">
+                <ul class="d-flex text-white justify-content-around footer-links p-3 w-100 h-50">
+                    <li><a class="text-white" href="#">HOME</a></li>
+                    <li><a class="text-white" href="#">SEARCH</a></li>
+                    <li><a class="text-white" href="#">ABOUT</a></li>
+                    <li><a class="text-white" href="#">ADVERTISE</a></li>
+                </ul>
+                <span
+                    class="footer-logo p-4 material-icons text-white align-self-start d-none d-lg-block">location_on</span>
+                <ul class="d-flex text-white justify-content-around footer-links p-3 w-100 h-50">
+                    <li><a class="text-white" href="#">FACEBOOK</a></li>
+                    <li><a class="text-white" href="#">TWITTER</a></li>
+                    <li><a class="text-white" href="#">BLOG</a></li>
+                    <li><a class="text-white" href="#">GOOGLE+</a></li>
+                </ul>
+
+            </div>
+
+
+            <div class="row d-flex justify-content-center pt-4 mx-0 text-white">
+                <div class="link-info col-md-4 d-flex justify-content-lg-center">
+                    <div class="d-flex flex-column text-lg-center">
+                        <h3>SUBSCRIBE</h3>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" id="search">
+                            <div class="input-group-append">
+                                <button class="btn btn-send bg-dark text-white" type="button">SEND</button>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-8">
-                        <div class="mr-auto d-flex justify-content-lg-end  justify-content-sm-center text-white mt-1 mt-md-2 text-center">
-                            <p class = "text-uppercase" style="color:#606060">&copy; Shingirayi Innocent Mandebvu. All rights reserved.</p>
+                </div>
+                <div class="link-info col-md-4 d-flex justify-content-lg-center">
+                    <div class="d-flex flex-column text-lg-center">
+                        <h3>CONTACT</h3>
+                        <p class="mb-0">Have a question or a submission?</p>
+                        <p><a style="color: #d3574a;" href="mailto:simandebvu@icloud.com"> info@findadoc.com</a></p>
+                    </div>
+                </div>
+                <div class="link-info col-md-4 px-3 d-flex justify-content-center">
+                    <div class="d-flex flex-column text-lg-center">
+                        <h3>ABOUT</h3>
+                        <p>Find a doc was made with the motivation to assist you when where and exactly how you need
+                            it. A realtime database giving you nothing but the best, recent and latest information
+                            in our fight against COVID19 and any other virus that dares to not believe that as
+                            humans, we are stronger together. <span><a href="#" style="color: #d3574a;">Learn
+                                    more..</a></span></p>
+                    </div>
+                </div>
+            </div>
+            <nav class="navbar navbar-dark w-100 mb-0 p-0 py-3" style="background-color: #1f1f1f;">
+                <div class="col-md-4">
+                    <div class="mr-auto text-white">
+                        <div class="d-flex justify-content-around w-lg-50">
+                            <span class="material-icons icons-footer"><a href="#"><i
+                                        class="fab fa-facebook"></i></a></span>
+                            <span class="material-icons icons-footer"><a href="#"><i
+                                        class="fab fa-google-plus-g"></i></a></span>
+                            <span class="material-icons icons-footer"><a href="#"><i
+                                        class="fab fa-twitter"></i></a></span>
+                            <span class="material-icons icons-footer"><a href="#"><i
+                                        class="fab fa-instagram"></i></a></span>
                         </div>
                     </div>
+                </div>
 
-                </nav>
-            </div>
-        </footer>
+                <div class="col-md-8">
+                    <div
+                        class="mr-auto d-flex justify-content-lg-end  justify-content-sm-center text-white mt-1 mt-md-2 text-center">
+                        <p class="text-uppercase" style="color:#606060">&copy; Shingirayi Innocent Mandebvu. All
+                            rights reserved.</p>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </footer>
 
     </div>
 
@@ -219,6 +224,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>

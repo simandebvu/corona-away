@@ -16,8 +16,18 @@ body {
 
 /* NAV BAR */
 .navbar {
+  font-size: 13px;
+}
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  z-index: 77;
   background-color: var(--main-page-color);
-  font-size: 14px;
+}
+
+.nav-logo{
+  font-size: 13px;
 }
 
 /* END NAV BAR */
