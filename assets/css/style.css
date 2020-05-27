@@ -16,17 +16,38 @@ body {
 
 /* NAV BAR */
 .navbar {
+  font-size: 13px;
+}
+
+.nav-wrapper {
+  position: fixed;
+  top: 0;
+  z-index: 77;
   background-color: var(--main-page-color);
-  font-size: 14px;
+}
+
+.nav-logo {
+  font-size: 13px;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  color: var(--main-page-color);
+}
+
+.nav-group {
+  width: 100%;
 }
 
 /* END NAV BAR */
 
 /* MAIN HEADER */
 
-.header {
+.main-page-header {
   background: url("../img/header-bg.jpg") no-repeat;
   background-size: cover;
+  background-position: 50%;
+  padding-top: 20%;
 }
 
 .search-header {
@@ -34,12 +55,22 @@ body {
   border-radius: 10px;
 }
 
+.btn-search {
+  color: white;
+  background-color: #d3574a;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  line-height: 20px;
+}
+
 /* END HEADER */
 
 /* STEPS */
 .steps-icon {
-  font-size: 3em;
-  color: var(--main-page-color);
+  width: 3em;
+  height: 1.5rem;
+  color: #000;
 }
 
 .btn-how-it-works {
@@ -54,20 +85,24 @@ body {
 
 /* QUICK LINKS */
 
-.quick-links {
-  border: 1px solid #000;
+.quick-links-main {
+  background-color: #e27f65;
 }
 
-.quick-links-main {
-  background-color: var(--main-page-color);
+.quick-links-main button {
+  color: #e27f65;
 }
 
 .quick-links-secondary {
-  background-color: var(--quick-links-secondary);
+  background-color: #99a4a5;
+}
+
+.quick-links-secondary button {
+  color: #99a4a5;
 }
 
 .quick-links-tertiary {
-  background-color: var(--quick-links-tertiary);
+  background-color: #509bd7;
 }
 
 /* END QUICK LINKS */
@@ -102,11 +137,47 @@ body {
 
 /* DOCTORS PAGE */
 .result-div {
-  width: 250px;
-  height: 300px;
+  max-width: 250px;
+  max-height: 300px;
+}
+
+.btn-doc-search {
+  background-color: #457db4;
+}
+
+.edit-btn-icon {
+  height: 1rem;
+}
+
+.btn-doc-clear {
+  background-color: #e5ab5a;
+}
+
+.search-filter-title {
+  color: #91939a;
 }
 
 /* DETAILS */
+
+.btn-contact {
+  background-color: #0062cc;
+}
+
+.contact-list {
+  width: 60%;
+}
+
+.details-info-links a:hover {
+  text-decoration: none;
+  color: var(--main-page-color);
+}
+
+.more-details-invite {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  word-spacing: 13px;
+  letter-spacing: 8px;
+}
 
 .mapouter {
   position: relative;
@@ -130,4 +201,27 @@ body {
 .card-title,
 .page-title {
   color: var(--main-page-color);
+}
+
+/* BREAK POINTS */
+
+@media (min-width: 992px) {
+  .nav-logo {
+    font-size: 24px;
+  }
+
+  .nav-group {
+    width: 78%;
+  }
+
+  .main-page-header {
+    padding-top: 15%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-page-header {
+    background-position: initial;
+    padding-top: 10%;
+  }
 }

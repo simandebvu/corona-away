@@ -12,14 +12,18 @@ Additional description about the project and its features.
 - Bootstrap
 - CSS
 
-## Live Demo
+## Live Demo and Video links
 
 [Live Demo Link](https://raw.githack.com/simandebvu/corona-away/develop/index.html)
 
+[Project Video Link](https://www.loom.com/share/676c690e42a94e2095ab182fa814f078)
 
-## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+## Technical Aspects
+
+- Used Boostrap CSS Framework
+- Fully responsive Website
+- No Javascript was used  
 
 ### Prerequisites
 
