@@ -28,7 +28,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Usage
 
-[Live Demo Link](https://raw.githack.com/simandebvu/corona-away/develop/index.html)
+Go to the [Live Demo Link](https://raw.githack.com/simandebvu/corona-away/develop/index.html)
 
 ## Authors
 
