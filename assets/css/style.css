@@ -165,6 +165,13 @@ body {
   color: var(--main-page-color);
 }
 
+.more-details-invite{
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  word-spacing: 13px;
+  letter-spacing: 8px;
+}
+
 .mapouter {
   position: relative;
   text-align: right;
