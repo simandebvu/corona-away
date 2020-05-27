@@ -30,6 +30,15 @@ body {
   font-size: 13px;
 }
 
+.nav-item a:hover{
+  text-decoration: none;
+  color: var(--main-page-color);
+}
+
+.nav-group{
+  width: 100%;
+}
+
 /* END NAV BAR */
 
 /* MAIN HEADER */
@@ -166,3 +175,17 @@ body {
 .page-title {
   color: var(--main-page-color);
 }
+
+
+/* BREAK POINTS */
+
+@media (min-width: 992px) {
+  .nav-logo {
+    font-size: 24px;
+  } 
+  
+  .nav-group{
+    width: 78%;
+  }
+}
+
