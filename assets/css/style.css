@@ -68,8 +68,9 @@ body {
 
 /* STEPS */
 .steps-icon {
-  font-size: 3em;
-  color: var(--main-page-color);
+  width: 3em;
+  height: 1.5rem;
+  color: #000000;
 }
 
 .btn-how-it-works {
@@ -85,15 +86,23 @@ body {
 /* QUICK LINKS */
 
 .quick-links-main {
-  background-color: var(--main-page-color);
+  background-color: #E27F65;
+}
+
+.quick-links-main button {
+  color: #E27F65;
 }
 
 .quick-links-secondary {
-  background-color: var(--quick-links-secondary);
+  background-color: #99A4A5;
+}
+
+.quick-links-secondary button {
+  color: #99A4A5;
 }
 
 .quick-links-tertiary {
-  background-color: var(--quick-links-tertiary);
+  background-color: #509BD7;
 }
 
 /* END QUICK LINKS */
@@ -214,7 +223,7 @@ body {
 @media (min-width: 1200px) { 
   .main-page-header{
     background-position: initial;
-    padding-top: 20%;
+    padding-top: 10%;
   }  
  }
 
