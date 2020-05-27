@@ -152,6 +152,19 @@ body {
 
 /* DETAILS */
 
+.btn-contact{
+  background-color:#0062cc;
+} 
+
+.contact-list{
+  width: 60%;
+}
+
+.details-info-links a:hover{
+  text-decoration: none;
+  color: var(--main-page-color);
+}
+
 .mapouter {
   position: relative;
   text-align: right;
